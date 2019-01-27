@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "659201856403",
+    "firebase_url": "https://project1-ffdd3.firebaseio.com",
+    "project_id": "project1-ffdd3",
+    "storage_bucket": "project1-ffdd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659201856403:android:c8f1fa704c1c218f",
+        "android_client_info": {
+          "package_name": "com.davidtran.mobiapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659201856403-c00h3b2bjgo497odm3k0gp609u0sfpog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRCKIuH_ZD3RzYfhEp4RDPdfvjmWHpnBs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
