@@ -6,19 +6,46 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <android.support.design.widget.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay"/>
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:theme="@style/AppTheme.AppBarOverlay"/>-->
 
-    <include layout="@layout/content_main" />
+    <!--<include layout="@layout/content_main" />-->
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@+id/title_text_main"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:text="@string/title_main"
+            android:textColor="@color/colorAccent"
+            android:textSize="32sp" />
+
+
+        <ListView
+            android:id="@+id/list_view_to_do"
+            android:layout_width="match_parent"
+            android:layout_height="394dp" />
+
+        <Button
+            android:id="@+id/btn_add_to_list"
+            android:layout_width="148dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dip"
+            android:background="@color/colorAccent"
+            android:text="@string/btn_add_to_list"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
 
 </android.support.design.widget.CoordinatorLayout>
