@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 for(DataSnapshot ds : dataSnapshot.getChildren()) {
                     arrayAdapter.add(ds.getKey());
-                    System.out.println("XXXXXXXXXXXXXXXXX" + ds.getKey());
                 }
                 mListView.setAdapter(arrayAdapter);
             }

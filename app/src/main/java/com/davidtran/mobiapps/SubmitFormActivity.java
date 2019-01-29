@@ -38,8 +38,8 @@ public class SubmitFormActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Field cannot be empty!", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                inputSubmission.setText("");
-                Toast.makeText(getApplicationContext(), "Sent!", Toast.LENGTH_SHORT).show();
+//                inputSubmission.setText("");
+//                Toast.makeText(getApplicationContext(), "Sent!", Toast.LENGTH_SHORT).show();
                 mDatabase.child(input).setValue("");
             }
         });
