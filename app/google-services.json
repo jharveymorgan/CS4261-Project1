@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "659201856403",
-    "firebase_url": "https://project1-ffdd3.firebaseio.com",
-    "project_id": "project1-ffdd3",
-    "storage_bucket": "project1-ffdd3.appspot.com"
+    "project_number": "506902344623",
+    "firebase_url": "https://mas-4261-project1.firebaseio.com",
+    "project_id": "mas-4261-project1",
+    "storage_bucket": "mas-4261-project1.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:659201856403:android:c8f1fa704c1c218f",
+        "mobilesdk_app_id": "1:506902344623:android:c8f1fa704c1c218f",
         "android_client_info": {
           "package_name": "com.davidtran.mobiapps"
         }
       },
       "oauth_client": [
         {
-          "client_id": "659201856403-c00h3b2bjgo497odm3k0gp609u0sfpog.apps.googleusercontent.com",
+          "client_id": "506902344623-cl09kid3i3fku8od8098gvkh5g68aro3.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBRCKIuH_ZD3RzYfhEp4RDPdfvjmWHpnBs"
+          "current_key": "AIzaSyBYYAzqzcUg3EUwVa1R4F5np0ph4Xb86jM"
         }
       ],
       "services": {
